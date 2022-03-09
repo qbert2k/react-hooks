@@ -1,5 +1,6 @@
 import './App.css';
 import StateTutorial from './UseState/StateTutorial';
+import EffectTutorial from './UseEffect/EffectTutorial';
 
 function App() {
     return (
@@ -7,6 +8,7 @@ function App() {
             <h1>Hooks (React)</h1>
             <h2>Basic Hooks</h2>
             <StateTutorial/>
+            <EffectTutorial/>
 
             <h2>Additional Hooks</h2>
         </div>
