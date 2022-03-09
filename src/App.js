@@ -6,6 +6,7 @@ import ReducerTutorial from './UseReducer/ReducerTutorial';
 import RefTutorial from './UseRef/RefTutorial';
 import ImperativeHandle from './UseImperativeHandle/ImperativeHandle';
 import LayoutEffectTutorial from './UseLayoutEffect/LayoutEffectTutorial';
+import MemoTutorial from './useMemo/MemoTutorial';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <ContextTutorial/>
             <h2>Additional Hooks</h2>
             <ReducerTutorial initialCount={10}/>
+            <MemoTutorial/>
             <RefTutorial/>
             <ImperativeHandle/>
             <LayoutEffectTutorial/>
