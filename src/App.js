@@ -2,7 +2,8 @@ import './App.css';
 import StateTutorial from './UseState/StateTutorial';
 import EffectTutorial from './UseEffect/EffectTutorial';
 import ReducerTutorial from './UseReducer/ReducerTutorial';
-import RefTutorial from "./UseRef/RefTutorial";
+import RefTutorial from './UseRef/RefTutorial';
+import LayoutEffectTutorial from './UseLayoutEffect/LayoutEffectTutorial';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <h2>Additional Hooks</h2>
             <ReducerTutorial initialCount={10}/>
             <RefTutorial/>
+            <LayoutEffectTutorial/>
         </div>
     );
 }

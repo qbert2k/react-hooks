@@ -2,7 +2,7 @@ import React, {useRef, useState} from 'react';
 
 const RefTutorial = () => {
     const [messages, setMessages] = useState([]);
-    const inputRef = useRef();
+    const inputRef = useRef(null);
 
     const onClick = () => {
         let newMessage = inputRef.current.value;
