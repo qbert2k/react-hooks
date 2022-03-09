@@ -17,7 +17,6 @@ const LayoutEffectTutorial = () => {
     return (
         <div>
             <h1>LayoutEffect</h1>
-            <hr/>
 
             <blockquote className="blockquote text-right">
                 <p ref={pTag}
@@ -33,6 +32,8 @@ const LayoutEffectTutorial = () => {
                 onClick={increment}>
                 Next quote
             </button>
+
+            <hr/>
         </div>
     );
 };
